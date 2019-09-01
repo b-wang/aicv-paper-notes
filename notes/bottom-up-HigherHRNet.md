@@ -15,7 +15,7 @@ Typical bottom-up pipeline consists of two main steps: 1) heatmap prediction; 2)
     - This paper argues that based on the literature [1], person grouping is easier than keypoint detection. **The main problem of bottom-up methods lies in inaccurate heatmap prediction.**
   - Unlike top-down methods can normalize all the persons to approximately the same scale by cropping and resizing the detected person bounding boxes, bottom-up methods are sensitive to the scale variance of persons
     - In most cases, bottom-up methods are **good at localizing keypoints precisely for large persons** while **inaccurate for smaller persons**
-    - *The authors hypothesize that the inferior in keypoint prediction for smaller persons is caused by insufficient feature map resolution* 
+    - *The authors hypothesize that the inferior in keypoint prediction for smaller persons is caused by insufficient feature map resolution*
     - Most state-of-the-art performances on various multi-person human pose estimation benchmarks are achieved by top-down methods
 
 ### Key ideas of this paper
@@ -28,6 +28,8 @@ HRNet
 - The extra computation overhead is marginal and negligible compared to the existing methods
   - existing methods rely on:
   - **multi-scale image pyramids** or **large input image size** to generate accurate pose heatmaps
+    - However, both testing methods introduce more computational cost which contradicts to the original intention of making bottom-up methods more efficient.
+  - To solve these problems, the paper proposed to target at generating spatially more accurate and scale-aware heatmaps for bottom-up keypoint prediction without sacrificing computational cost.
 - HigherHRNet surpasses all existing bottom-up methods on the COCO dataset **without using multi-scale test**
 
 ### Further reading
