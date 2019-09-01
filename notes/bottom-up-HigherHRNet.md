@@ -8,10 +8,13 @@ Typical bottom-up pipeline consists of two main steps: 1) heatmap prediction; 2)
 
 Pros and cons of bottom-up pose estimation methods compared to the top-down ones:
 - Pros
-  - Unlike top-down methods that rely on a separate person detector and need to estimate pose for every person individually, bottom normally computationally less intensive.
+  - Unlike top-down methods that rely on a separate person detector and need to estimate pose for every person individually, bottom-up methods are more efficient and suitable for real-time pose estimation.
   - Because top-down methods consists of several modules such as detection and pose estimation, so they're not truly end-to-end systems. In contrast, bottom-up methods could be designed as true end-to-end systems.
 - Cons
+  - There still exists a large gap between the performances of bottom-up and top-down methods
+    - This paper argues that based on the literature [1], person grouping is easier than keypoint detection. **The main problem of bottom-up methods lies in inaccurate heatmap prediction.**
   - Unlike top-down methods can normalize all the persons to approximately the same scale by cropping and resizing the detected person bounding boxes, bottom-up methods are sensitive to the scale variance of persons
+    - In most cases, bottom-up methods are **good at localizing keypoints precisely for large persons** while **inaccurate for smaller persons**
     - Most state-of-the-art performances on various multi-person human pose estimation benchmarks are achieved by top-down methods
 
 ### Key ideas of this paper
