@@ -30,9 +30,9 @@ HRNet
   - Basically the proposed method builds **high-quality multi-level features** and perform **multi-scale pose prediction**
 - The extra computation overhead is marginal and negligible compared to the existing methods
   - existing methods rely on:
-  - **multi-scale image pyramids** or **large input image size** to generate accurate pose heatmaps
+  - **multi-scale image pyramids** (Figure 1 (b)) or **large input image size** (Figure 1 (a)) to generate accurate pose heatmaps
     - However, both testing methods introduce more computational cost which contradicts to the original intention of making bottom-up methods more efficient.
-  - To solve these problems, the paper proposed to target at generating spatially more accurate and scale-aware heatmaps for bottom-up keypoint prediction without sacrificing computational cost.
+  - To solve these problems, the paper proposed to target at generating spatially more accurate and scale-aware heatmaps for bottom-up keypoint prediction without sacrificing computational cost (Figure 1 (c)).
 - HigherHRNet surpasses all existing bottom-up methods on the COCO dataset **without using multi-scale test**
 
 ### Further reading
