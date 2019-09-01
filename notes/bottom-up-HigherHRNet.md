@@ -4,9 +4,7 @@
 
 ### Background of bottom-up pose estimation , pros and cons
 
-Typical bottom-up pipeline consists of two main steps:
-- heatmap prediction
-- keypoint grouping
+Typical bottom-up pipeline consists of two main steps: 1) heatmap prediction; 2) keypoint grouping
 
 Pros and cons of bottom-up pose estimation methods compared to the top-down ones:
 - Pros
