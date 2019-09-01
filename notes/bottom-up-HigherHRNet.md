@@ -32,6 +32,8 @@ HRNet
   - To solve these problems, the paper proposed to target at generating spatially more accurate and scale-aware heatmaps for bottom-up keypoint prediction without sacrificing computational cost.
 - HigherHRNet surpasses all existing bottom-up methods on the COCO dataset **without using multi-scale test**
 
+[Three testing approaches of bottom-up methods](figures/higherHRNet_three_testing.png)
+
 ### Further reading
 1. [Associative Embedding: End-to-End Learning for Joint Detection and Grouping, NIPS'17](https://papers.nips.cc/paper/6822-associative-embedding-end-to-end-learning-for-joint-detection-and-grouping.pdf)
 2. [PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model, ECCV'18](https://arxiv.org/pdf/1803.08225.pdf)
