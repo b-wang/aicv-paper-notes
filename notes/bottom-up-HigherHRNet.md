@@ -18,10 +18,10 @@ Typical bottom-up pipeline consists of two main steps: 1) heatmap prediction; 2)
     - *The authors hypothesize that the inferior in keypoint prediction for smaller persons is caused by insufficient feature map resolution*
     - Most state-of-the-art performances on various multi-person human pose estimation benchmarks are achieved by top-down methods
 
-<img src="figures/higherHRNet_three_testing.png" width="600"> 
-Figure 1. Three testing approaches of bottom-up methods. 
+<img src="figures/higherHRNet_three_testing.png" width="600">
+Figure 1. Three testing approaches of bottom-up methods.
 
-### Key ideas of this paper
+### Key ideas of this paper (HigherHRNet)
 - Bottom-up multiperson human pose estimation and focuses on **better heatmap prediction**
   - An extension of the HRNet framework
 - HigherHRNet generates higher-resolution feature maps by **deconvolving the high-resolution feature maps** outputted by
@@ -33,7 +33,13 @@ HRNet
   - **multi-scale image pyramids** (Figure 1 (b)) or **large input image size** (Figure 1 (a)) to generate accurate pose heatmaps
     - However, both testing methods introduce more computational cost which contradicts to the original intention of making bottom-up methods more efficient.
   - To solve these problems, the paper proposed to target at generating spatially more accurate and scale-aware heatmaps for bottom-up keypoint prediction without sacrificing computational cost (Figure 1 (c)).
-- HigherHRNet surpasses all existing bottom-up methods on the COCO dataset **without using multi-scale test**
+- The proposed method **does not use multi-scale test** to boost performance.
+  - It achieves AP of 70.4 on COCO2017 test-dev with single scale test
+    - It surpasses all existing bottom-up methods on the COCO dataset **without using multi-scale test**
+
+### Major contributions of HigherHRNet
+- Proposed a HigherHRNet by adding an efficient deconvolution module on top of HRNet
+- Proposed a Multi-resolution supervision in training stage and a Heatmap aggregation strategy for inference to let HigherHRNet predict scale-aware heatmaps
 
 ### Further reading
 1. [Associative Embedding: End-to-End Learning for Joint Detection and Grouping, NIPS'17](https://papers.nips.cc/paper/6822-associative-embedding-end-to-end-learning-for-joint-detection-and-grouping.pdf)
