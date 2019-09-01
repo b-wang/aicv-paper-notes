@@ -1,8 +1,8 @@
-### Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation
+## Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation
 
 (Paper released on Aug 27, 2019)
 
-#### Background of bottom-up pose estimation , pros and cons
+### Background of bottom-up pose estimation , pros and cons
 
 Typical bottom-up pipeline consists of two main steps:
 - heatmap prediction
@@ -15,7 +15,7 @@ Pros and cons of bottom-up pose estimation methods:
   - yyy
 
 
-#### Key ideas of this paper
+### Key ideas of this paper
 - Bottom-up multiperson human pose estimation and focuses on **better heatmap prediction**
   - An extension of the HRNet framework
 - HigherHRNet generates higher-resolution feature maps by **deconvolving the high-resolution feature maps** outputted by
