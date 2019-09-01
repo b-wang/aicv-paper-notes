@@ -1,4 +1,4 @@
-## aicv-paper-notes
+## AI&CV paper notes
 
 ### 2019-08
 
