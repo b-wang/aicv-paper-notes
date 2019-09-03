@@ -1,4 +1,4 @@
-## Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation
+## [Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation](https://arxiv.org/pdf/1908.10357.pdf)
 
 (Paper released on Aug 27, 2019)
 
