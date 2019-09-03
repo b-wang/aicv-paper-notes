@@ -1,6 +1,6 @@
 ## [Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation](https://arxiv.org/pdf/1908.10357.pdf)
 
-(Paper released on Aug 27, 2019)
+(Paper released on Aug 27, 2019, [code to-be-released](https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation))
 
 ### Background and motivation
 
