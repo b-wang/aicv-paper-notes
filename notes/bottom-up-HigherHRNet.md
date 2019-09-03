@@ -41,7 +41,7 @@ HRNet
 - Proposed a HigherHRNet by adding an efficient deconvolution module on top of HRNet
 - Proposed a Multi-resolution supervision in training stage and a Heatmap aggregation strategy for inference to let HigherHRNet predict scale-aware heatmaps
 
-<img src="figures/HigherHRNet_framework.png" width="600">
+<img src="figures/HigherHRNet_framework.png" width="800">
 Figure 2. Overview of the HigherHRNet framework.
 
 ### Further reading
