@@ -37,12 +37,13 @@ HRNet
   - It achieves AP of 70.4 on COCO2017 test-dev with single scale test
     - It surpasses all existing bottom-up methods on the COCO dataset **without using multi-scale test**
 
+<img src="figures/HigherHRNet_framework.png" width="800">
+Figure 2. Overview of the HigherHRNet framework.
+
 ### Major contributions of HigherHRNet
 - Proposed a HigherHRNet by adding an efficient deconvolution module on top of HRNet
 - Proposed a Multi-resolution supervision in training stage and a Heatmap aggregation strategy for inference to let HigherHRNet predict scale-aware heatmaps
 
-<img src="figures/HigherHRNet_framework.png" width="800">
-Figure 2. Overview of the HigherHRNet framework.
 
 ### Further reading
 1. [Associative Embedding: End-to-End Learning for Joint Detection and Grouping, NIPS'17](https://papers.nips.cc/paper/6822-associative-embedding-end-to-end-learning-for-joint-detection-and-grouping.pdf)
