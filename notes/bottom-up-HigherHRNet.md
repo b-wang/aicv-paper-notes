@@ -4,12 +4,12 @@
 
 ### Background and motivation
 
-Typical bottom-up pipeline consists of two main steps: 1) heatmap prediction; 2) keypoint grouping
+Typical bottom-up pipeline consists of two main steps: 1) **heatmap prediction**; 2) **keypoint grouping**.
 
 #### Pros and cons of bottom-up pose estimation methods compared to the top-down ones:
 - Pros
-  - Unlike top-down methods that rely on a separate person detector and need to estimate pose for every person individually, bottom-up methods are more efficient and suitable for real-time pose estimation.
-  - Because top-down methods consists of several modules such as detection and pose estimation, so they're not truly end-to-end systems. In contrast, bottom-up methods could be designed as true end-to-end systems.
+  - Unlike top-down methods that rely on a separate person detector and need to estimate pose for every person individually, bottom-up methods are more **efficient and suitable for real-time** applications.
+  - Because top-down methods consists of several modules such as detection and pose estimation, so they're **not truly end-to-end systems**. In contrast, bottom-up methods could be designed as true end-to-end systems.
 - Cons
   - There still exists a large gap between the performances of bottom-up and top-down methods
     - This paper argues that based on the literature [1], person grouping is easier than keypoint detection. **The main problem of bottom-up methods lies in inaccurate heatmap prediction.**
