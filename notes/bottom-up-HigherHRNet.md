@@ -41,6 +41,9 @@ HRNet
 - Proposed a HigherHRNet by adding an efficient deconvolution module on top of HRNet
 - Proposed a Multi-resolution supervision in training stage and a Heatmap aggregation strategy for inference to let HigherHRNet predict scale-aware heatmaps
 
+<img src="figures/HigherHRNet_framework.png" width="600">
+Figure 2. Overview of the HigherHRNet framework.
+
 ### Further reading
 1. [Associative Embedding: End-to-End Learning for Joint Detection and Grouping, NIPS'17](https://papers.nips.cc/paper/6822-associative-embedding-end-to-end-learning-for-joint-detection-and-grouping.pdf)
 2. [PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model, ECCV'18](https://arxiv.org/pdf/1803.08225.pdf)
