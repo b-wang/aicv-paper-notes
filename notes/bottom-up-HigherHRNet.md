@@ -44,6 +44,11 @@ Figure 2. Overview of the HigherHRNet framework.
 - Proposed a HigherHRNet by adding an efficient deconvolution module on top of HRNet
 - Proposed a Multi-resolution supervision in training stage and a Heatmap aggregation strategy for inference to let HigherHRNet predict scale-aware heatmaps
 
+### Ablation study and understanding the submodules
+To better understand the framework and how each submodule works, the ablation study image is included as shown in Figure 3.
+
+<img src="figures/higherHRNet_ablation.png" width="800">
+Figure 3. Ablation study of the HigherHRNet framework.
 
 ### Further reading
 1. [Associative Embedding: End-to-End Learning for Joint Detection and Grouping, NIPS'17](https://papers.nips.cc/paper/6822-associative-embedding-end-to-end-learning-for-joint-detection-and-grouping.pdf)
