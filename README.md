@@ -1,6 +1,7 @@
 ## AI&CV paper notes
 
-F: face modeling, P: pose estimation, G: general deep learning/representation learning/machine learning\\
+F: face modeling, P: pose estimation, G: general deep learning/representation learning/machine learning
+
 N: new papers, C: classic/highly cited papers
 
 ### 2019-08
