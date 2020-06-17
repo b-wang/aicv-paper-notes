@@ -5,13 +5,7 @@ Paper classification coding:
 - F: face modeling, P: pose estimation, V, general computer vision, G: general deep learning/representation learning/machine learning, R: 3D recon
 
 ### 2020-06
-#### CVPR 2020
-- ##### Face
-- ##### Human Pose
-- ##### 3D recon
-- ##### Dataset
-- ##### Other
-
+- [CVPR 2020](notes/cvpr2020.md)
 
 ### 2020-05
 - [NR][Occupancy Networks: Learning 3D Reconstruction in Function Space - CVPR'19](http://openaccess.thecvf.com/content_CVPR_2019/html/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.html)
