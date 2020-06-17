@@ -2,7 +2,7 @@
 
 Paper classification coding:
 - N: new papers, C: classic/highly cited papers, T: tutorial, B: baseline/benchmark, S: summary/list of papers in a field
-- F: face modeling, P: pose estimation, V, general computer vision, G: general deep learning/representation learning/machine learning
+- F: face modeling, P: pose estimation, V, general computer vision, G: general deep learning/representation learning/machine learning, R: 3D recon
 
 ### 2020-06
 #### CVPR 2020
@@ -11,9 +11,16 @@ Paper classification coding:
 
 ### 2020-04
 
+
 ### 2020-03
-- [xx][]()
-- [xx][]()
+- [NP][Sim2real transfer learning for 3D human pose estimation: motion to the rescue - NIPS'19](https://arxiv.org/pdf/1907.02499.pdf)
+- [NR][Multi-Garment Net: Learning to Dress 3D People from Images](https://arxiv.org/pdf/1908.06903.pdf)
+- [NV][Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722)
+- [NV][Efficientnet: Rethinking model scaling for convolutional neural networks](https://arxiv.org/abs/1905.11946)
+- [NV][Self-Training With Noisy Student Improves ImageNet Classification - CVPR'20](http://openaccess.thecvf.com/content_CVPR_2020/html/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.html)
+- [CV][MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html)
+  - [T][link](https://towardsdatascience.com/mobilenetv2-inverted-residuals-and-linear-bottlenecks-8a4362f4ffd5)
+- [CV][Revisiting Unreasonable Effectiveness of Data in Deep Learning Era](http://openaccess.thecvf.com/content_iccv_2017/html/Sun_Revisiting_Unreasonable_Effectiveness_ICCV_2017_paper.html)
 
 ### 2020-02
 - [NP][HoloPose: Holistic 3D Human Reconstruction In-The-Wild](https://www.arielai.com/holopose/)
