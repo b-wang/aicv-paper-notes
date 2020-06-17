@@ -1,4 +1,6 @@
-### 3D human pose estimation
+### CVPR 2020 Human Pose Estimation Papers
+
+#### 3D human pose estimation
 - paper 1
 
-### 2D human pose estimation
+#### 2D human pose estimation
