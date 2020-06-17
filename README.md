@@ -24,8 +24,9 @@ Paper classification coding:
 - [XX][]()
 
 ### 2019-11
-- [XX][]()
-- [XX][]()
+- [NP][Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop, ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/html/Kolotouros_Learning_to_Reconstruct_3D_Human_Pose_and_Shape_via_Model-Fitting_ICCV_2019_paper.html)
+- [NV][Convolutional Sequence Generation for Skeleton-Based Action Synthesis, ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yan_Convolutional_Sequence_Generation_for_Skeleton-Based_Action_Synthesis_ICCV_2019_paper.pdf)
+- [NP][Learnable Triangulation of Human Pose, ICCV'19](https://arxiv.org/pdf/1905.05754v1.pdf)
 
 ### 2019-10
 - [NP][Multi-person Articulated Tracking with Spatial and Temporal Embeddings](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jin_Multi-Person_Articulated_Tracking_With_Spatial_and_Temporal_Embeddings_CVPR_2019_paper.pdf) 
