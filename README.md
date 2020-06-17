@@ -16,18 +16,17 @@ Paper classification coding:
 ### 2020-02
 
 ### 2020-01
-- [XX][]()
-- [XX][]()
+- [NP][On Boosting Single-Frame 3D Human Pose Estimation via Monocular Videos](http://openaccess.thecvf.com/content_ICCV_2019/html/Li_On_Boosting_Single-Frame_3D_Human_Pose_Estimation_via_Monocular_Videos_ICCV_2019_paper.html)
+- [NP][Optimizing Network Structure for 3D Human Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2019/html/Ci_Optimizing_Network_Structure_for_3D_Human_Pose_Estimation_ICCV_2019_paper.html)
+- [NP][Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking](http://openaccess.thecvf.com/content_ICCV_2019/html/Sharma_Monocular_3D_Human_Pose_Estimation_by_Generation_and_Ordinal_Ranking_ICCV_2019_paper.html)
 
 ### 2019-12
-- [XX][]()
-- [XX][]()
+- [NP][Learnable Triangulation of Human Pose, ICCV'19](https://arxiv.org/pdf/1905.05754v1.pdf)
+- [CP][Simple Baselines for Human Pose Estimation and Tracking, ECCV'18](http://openaccess.thecvf.com/content_ECCV_2018/html/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.html)
 
 ### 2019-11
 - [NP][Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop, ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/html/Kolotouros_Learning_to_Reconstruct_3D_Human_Pose_and_Shape_via_Model-Fitting_ICCV_2019_paper.html)
 - [NV][Convolutional Sequence Generation for Skeleton-Based Action Synthesis, ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yan_Convolutional_Sequence_Generation_for_Skeleton-Based_Action_Synthesis_ICCV_2019_paper.pdf)
-- [NP][Learnable Triangulation of Human Pose, ICCV'19](https://arxiv.org/pdf/1905.05754v1.pdf)
-- [CP][Simple Baselines for Human Pose Estimation and Tracking, ECCV'18](http://openaccess.thecvf.com/content_ECCV_2018/html/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.html)
 
 ### 2019-10
 - [NP][Multi-person Articulated Tracking with Spatial and Temporal Embeddings](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jin_Multi-Person_Articulated_Tracking_With_Spatial_and_Temporal_Embeddings_CVPR_2019_paper.pdf) 
