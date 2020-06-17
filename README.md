@@ -28,6 +28,8 @@ Paper classification coding:
 - [XX][]()
 
 ### 2019-10
+- [NP][Multi-person Articulated Tracking with Spatial and Temporal Embeddings](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jin_Multi-Person_Articulated_Tracking_With_Spatial_and_Temporal_Embeddings_CVPR_2019_paper.pdf) 
+- [NP][Efficient Online Multi-Person 2D Pose Tracking with Recurrent Spatio-Temporal Affinity Fields](http://openaccess.thecvf.com/content_CVPR_2019/papers/Raaj_Efficient_Online_Multi-Person_2D_Pose_Tracking_With_Recurrent_Spatio-Temporal_Affinity_CVPR_2019_paper.pdf)
 - [B][Person ReID baseline](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial)
 - [NV][Spatial-Temporal Person Re-identification](https://paperswithcode.com/paper/spatial-temporal-person-re-identification#code)
 
