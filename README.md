@@ -1,8 +1,35 @@
 ## AI&CV paper notes
 
 Paper classification coding:
-- N: new papers, C: classic/highly cited papers
+- N: new papers, C: classic/highly cited papers, T: tutorial, B:baseline/benchmark
 - F: face modeling, P: pose estimation, V, general computer vision, G: general deep learning/representation learning/machine learning
+
+### 2020-06
+#### CVPR 2020
+
+### 2020-05
+
+### 2020-04
+
+### 2020-03
+
+### 2020-02
+
+### 2020-01
+- [XX][]()
+- [XX][]()
+
+### 2019-12
+- [XX][]()
+- [XX][]()
+
+### 2019-11
+- [XX][]()
+- [XX][]()
+
+### 2019-10
+- [B][Person ReID baseline](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial)
+- [NV][Spatial-Temporal Person Re-identification](https://paperswithcode.com/paper/spatial-temporal-person-re-identification#code)
 
 ### 2019-09
 - [NP][Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation](https://arxiv.org/pdf/1908.10357.pdf) [[code to-be-released](https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation)]
