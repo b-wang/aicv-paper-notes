@@ -6,11 +6,22 @@ Paper classification coding:
 
 ### 2020-06
 #### CVPR 2020
+- ##### Face
+- ##### Human Pose
+- ##### 3D recon
+- ##### Dataset
+- ##### Other
+
 
 ### 2020-05
+- [NR][Occupancy Networks: Learning 3D Reconstruction in Function Space - CVPR'19](http://openaccess.thecvf.com/content_CVPR_2019/html/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.html)
+- [NR][Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion - CVPR'20](http://openaccess.thecvf.com/content_CVPR_2020/html/Chibane_Implicit_Functions_in_Feature_Space_for_3D_Shape_Reconstruction_and_CVPR_2020_paper.html)
+- [NP][15 Keypoints Is All You Need - CVPR'20](http://openaccess.thecvf.com/content_CVPR_2020/html/Snower_15_Keypoints_Is_All_You_Need_CVPR_2020_paper.html)
 
 ### 2020-04
-
+- [CV][Cost-Effective Active Learning for Deep Image Classification](https://arxiv.org/pdf/1701.03551.pdf)
+- [NP][VIBE: Video Inference for Human Body Pose and Shape Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Kocabas_VIBE_Video_Inference_for_Human_Body_Pose_and_Shape_Estimation_CVPR_2020_paper.html)
+- [NP][Combining Detection and Tracking for Human Pose Estimation in Videos](http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Combining_Detection_and_Tracking_for_Human_Pose_Estimation_in_Videos_CVPR_2020_paper.html)
 
 ### 2020-03
 - [NP][Sim2real transfer learning for 3D human pose estimation: motion to the rescue - NIPS'19](https://arxiv.org/pdf/1907.02499.pdf)
