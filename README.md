@@ -1,7 +1,7 @@
 ## AI&CV paper notes
 
 Paper classification coding:
-- N: new papers, C: classic/highly cited papers, T: tutorial, B:baseline/benchmark
+- N: new papers, C: classic/highly cited papers, T: tutorial, B: baseline/benchmark, S: summary/list of papers in a field
 - F: face modeling, P: pose estimation, V, general computer vision, G: general deep learning/representation learning/machine learning
 
 ### 2020-06
@@ -12,8 +12,14 @@ Paper classification coding:
 ### 2020-04
 
 ### 2020-03
+- [xx][]()
+- [xx][]()
 
 ### 2020-02
+- [NP][HoloPose: Holistic 3D Human Reconstruction In-The-Wild](https://www.arielai.com/holopose/)
+- [CP][Monocular 3d pose and shape estimation of multiple people in natural scenes-the importance of multiple scene constraints, CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/html/Zanfir_Monocular_3D_Pose_CVPR_2018_paper.html)
+- [CP][Flowing ConvNets for Human Pose Estimation in Videos](http://openaccess.thecvf.com/content_iccv_2015/html/Pfister_Flowing_ConvNets_for_ICCV_2015_paper.html)
+- [S][Awesome Human Pose Estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 
 ### 2020-01
 - [NP][On Boosting Single-Frame 3D Human Pose Estimation via Monocular Videos](http://openaccess.thecvf.com/content_ICCV_2019/html/Li_On_Boosting_Single-Frame_3D_Human_Pose_Estimation_via_Monocular_Videos_ICCV_2019_paper.html)
@@ -37,6 +43,7 @@ Paper classification coding:
 ### 2019-09
 - [NP][Bottom-up Higher-Resolution Networks for Multi-Person Pose Estimation](https://arxiv.org/pdf/1908.10357.pdf) [[code to-be-released](https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation)]
 - [NF][Face-to-Parameter Translation for Game Character Auto-Creation - ICCV'19](https://arxiv.org/abs/1909.01064)
+- [NP][Learning Temporal Pose Estimation from Sparsely-Labeled Videos - NIPS'19](http://papers.nips.cc/paper/8567-learning-temporal-pose-estimation-from-sparsely-labeled-videos)
 
 ### 2019-08
 - [NP][Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image](https://arxiv.org/abs/1907.11346)
