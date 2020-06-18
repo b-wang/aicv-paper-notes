@@ -17,7 +17,7 @@
   
 * [Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)
 
-* []()
+* [Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis](http://openaccess.thecvf.com/content_CVPR_2020/html/Kundu_Self-Supervised_3D_Human_Pose_Estimation_via_Part_Guided_Novel_Image_CVPR_2020_paper.html)
 
 #### 2D human pose estimation
 - [HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Cheng_HigherHRNet_Scale-Aware_Representation_Learning_for_Bottom-Up_Human_Pose_Estimation_CVPR_2020_paper.html)
