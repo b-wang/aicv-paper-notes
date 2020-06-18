@@ -51,5 +51,9 @@
 * [15 Keypoints Is All You Need](http://openaccess.thecvf.com/content_CVPR_2020/html/Snower_15_Keypoints_Is_All_You_Need_CVPR_2020_paper.html)
   * The transformer module make it very efficient, it's being the 1 on PoseTrack leaderboard for 4 months from 2019 to 2020. 
 
+* [Distribution-Aware Coordinate Representation for Human Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Distribution-Aware_Coordinate_Representation_for_Human_Pose_Estimation_CVPR_2020_paper.html)
+  * No. 3 ICCV'19 COCO keypoints detection challenge (code avaiable). 
+  * Decode the predicted heat map, maximum relocation, and resolution recovery.  
+
 #### 3D human pose estimation - multi-view
 
