@@ -14,6 +14,11 @@
 
 * [Cascaded Deep Monocular 3D Human Pose Estimation With Evolutionary Training Data](http://openaccess.thecvf.com/content_CVPR_2020/html/Li_Cascaded_Deep_Monocular_3D_Human_Pose_Estimation_With_Evolutionary_Training_CVPR_2020_paper.html)
   * Key idea: a novel data augmentation method, based on kinematic tree, two random options are performed: crossover and mutation. 
+  * Discussed with the author during live Q&A session. 
+  * Q: Asked question how image feature is synthesized if a joint is randomly mutated or crossover. A: they focus on the augmentation for the method, there is a lifting network (2D kpts -> 3D kpts). In this case, just need to simulate corresponding 2D and 3D joints. 
+  * Q: How's the improvement? A: they show after applying the augmentation, single image-based method can supass the temporal based method (within certain range of using training data). 
+  * Q: How to extend this augmentation strategy to video method? A: random mutation is hard, as randomly change one joint at one frame, we have to change the neighboring frames to make the sequence smooth and natural. Crossover is easier, kind of just mirroring the whole sequence. 
+  * Q: How to extend this method to synthesize both skeleton and image, like using GAN? A: GAN needs a lot of data, and the produced images are not good enough maybe. Maybe using CG human model to render on image and then using GAN to do a style transfer to make it more realistic. 
   
 * [Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)
 
