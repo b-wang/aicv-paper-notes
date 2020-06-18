@@ -20,7 +20,18 @@
 * [Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis](http://openaccess.thecvf.com/content_CVPR_2020/html/Kundu_Self-Supervised_3D_Human_Pose_Estimation_via_Part_Guided_Novel_Image_CVPR_2020_paper.html)
 
 #### 2D human pose estimation
-- [HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Cheng_HigherHRNet_Scale-Aware_Representation_Learning_for_Bottom-Up_Human_Pose_Estimation_CVPR_2020_paper.html)
+* [HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Cheng_HigherHRNet_Scale-Aware_Representation_Learning_for_Bottom-Up_Human_Pose_Estimation_CVPR_2020_paper.html)
+  * Discussed with the author on 06-17 for this paper duing Q&A session
+  * Why need to do higher resolution, because HRNet cannot deal with smaller person - bottom-up method suffers from it.
+  * HigherHRNet do deconvolution to upsample to `1/2` of the input resolution and do a supervision, the result is better.
+  * Why not going all the way up to full resolution? COCO dataset doesn't annotate smaller person, actually full resolution makes the result slightly worse. 
+
+* [The Devil Is in the Details: Delving Into Unbiased Data Processing for Human Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Huang_The_Devil_Is_in_the_Details_Delving_Into_Unbiased_Data_CVPR_2020_paper.html)
+  * Discussed with the author duing live Q&A session
+  * Why need to do UDP (unbiased data processing)? because like flipping, processing on regular grid is discrete, cause precision problem, especially for smaller persons.
+  * Why processing on regular grid is discrete is such an important issue for pose estimation, why not for object detection? A: because the evaluation of pose estimation is coordinate difference, sensitive to subpixel accuracy, especially for smaller person.
+  * I suggested the authors to do a subset analysis to just compute the performance improvement on smaller persons, the improvement of this method may improve even more. 
+  * I also tried to ask the author if the method applies to both buttom-up and top-down methods, buttom-up for sure, top-down, not so sure. The author seems to be not familar with detection bounding box. And then the connect lost, the connect of zoom live session was not stable. 
 
 #### 3D human pose estimation - multi-view
 
