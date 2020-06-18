@@ -29,6 +29,9 @@
 * [Compressed Volumetric Heatmaps for Multi-Person 3D Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Fabbri_Compressed_Volumetric_Heatmaps_for_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
   * key idea: use 3D volumetric heatmap instead of 2D heatmap
   
+* [Object-Occluded Human Shape and Pose Estimation From a Single Color Image](http://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Object-Occluded_Human_Shape_and_Pose_Estimation_From_a_Single_Color_CVPR_2020_paper.html)
+  * A SMPL-based pose estimation method focusing on producing robust 3D SMLP pose estimation with occlusions. They also release a occlusion dataset with 2D joints, 3D SMPL parameters, and binary mask of the person. It is an individual frame dataset not a video one, need to double check.
+  
 * [Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)
 
 * [Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis](http://openaccess.thecvf.com/content_CVPR_2020/html/Kundu_Self-Supervised_3D_Human_Pose_Estimation_via_Part_Guided_Novel_Image_CVPR_2020_paper.html)
