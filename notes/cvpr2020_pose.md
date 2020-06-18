@@ -46,5 +46,10 @@
   * I suggested the authors to do a subset analysis to just compute the performance improvement on smaller persons, the improvement of this method may improve even more. 
   * I also tried to ask the author if the method applies to both buttom-up and top-down methods, buttom-up for sure, top-down, not so sure. The author seems to be not familar with detection bounding box. And then the connect lost, the connect of zoom live session was not stable. 
 
+* [UniPose: Unified Human Pose Estimation in Single Images and Videos](http://openaccess.thecvf.com/content_CVPR_2020/html/Artacho_UniPose_Unified_Human_Pose_Estimation_in_Single_Images_and_Videos_CVPR_2020_paper.html)
+
+* [15 Keypoints Is All You Need](http://openaccess.thecvf.com/content_CVPR_2020/html/Snower_15_Keypoints_Is_All_You_Need_CVPR_2020_paper.html)
+  * The transformer module make it very efficient, it's being the 1 on PoseTrack leaderboard for 4 months from 2019 to 2020. 
+
 #### 3D human pose estimation - multi-view
 
