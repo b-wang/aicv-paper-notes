@@ -26,7 +26,8 @@
   * They evaluated on multipe multi-person 3D datasets: JTA, Panoptic, MuPoTS-3D. The JTA dataset is not that good becuase it only contains pedistrans. They mentioned a new dataset: [Human pose estimation for real-world crowded scenarios](https://arxiv.org/pdf/1907.06922.pdf). 
   * They show that running time comparison against Moon et al. ICCV'19. 
   
-* [PandaNet : Anchor-Based Single-Shot Multi-Person 3D Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
+* [Compressed Volumetric Heatmaps for Multi-Person 3D Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Fabbri_Compressed_Volumetric_Heatmaps_for_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
+  * key idea: use 3D volumetric heatmap instead of 2D heatmap
   
 * [Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)
 
