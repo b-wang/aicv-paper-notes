@@ -20,6 +20,8 @@
   * Q: How to extend this augmentation strategy to video method? A: random mutation is hard, as randomly change one joint at one frame, we have to change the neighboring frames to make the sequence smooth and natural. Crossover is easier, kind of just mirroring the whole sequence. 
   * Q: How to extend this method to synthesize both skeleton and image, like using GAN? A: GAN needs a lot of data, and the produced images are not good enough maybe. Maybe using CG human model to render on image and then using GAN to do a style transfer to make it more realistic. 
   
+* [PandaNet : Anchor-Based Single-Shot Multi-Person 3D Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
+  
 * [Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)
 
 * [Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis](http://openaccess.thecvf.com/content_CVPR_2020/html/Kundu_Self-Supervised_3D_Human_Pose_Estimation_via_Part_Guided_Novel_Image_CVPR_2020_paper.html)
