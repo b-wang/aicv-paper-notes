@@ -20,6 +20,12 @@
   * Q: How to extend this augmentation strategy to video method? A: random mutation is hard, as randomly change one joint at one frame, we have to change the neighboring frames to make the sequence smooth and natural. Crossover is easier, kind of just mirroring the whole sequence. 
   * Q: How to extend this method to synthesize both skeleton and image, like using GAN? A: GAN needs a lot of data, and the produced images are not good enough maybe. Maybe using CG human model to render on image and then using GAN to do a style transfer to make it more realistic. 
   
+* [PandaNet : Anchor-Based Single-Shot Multi-Person 3D Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/papers/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.pdf)
+  * Discussed with the author during live Q&A session.
+  * This is a bottom-up multi-person 3D human pose estimation method. In order to solve the problem that bottom-up method cannot deal with smaller persons, they propose to use anchor like in object detection. Using anchor introduces another issue which is when people overlap with each other. They propose a Pose-Aware Anchors Selection method to deal with this.
+  * They evaluated on multipe multi-person 3D datasets: JTA, Panoptic, MuPoTS-3D. The JTA dataset is not that good becuase it only contains pedistrans. They mentioned a new dataset: [Human pose estimation for real-world crowded scenarios](https://arxiv.org/pdf/1907.06922.pdf). 
+  * They show that running time comparison against Moon et al. ICCV'19. 
+  
 * [PandaNet : Anchor-Based Single-Shot Multi-Person 3D Pose Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
   
 * [Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)
